@@ -1,0 +1,107 @@
+body {
+  font-family: Tahoma;
+  color: rgb(200, 200, 200);
+  background-color: rgb(64, 69, 80);
+}
+
+h3 {
+  font-family: Tahoma;
+  text-align: right;
+  color: rgb(180, 180, 180)
+}
+
+#quiz {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.3)
+}
+
+#header {
+  display: flex;
+  justify-content: space-between; /* Space the credit and score apart */
+  align-items: center; /* Vertically center them */
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+#credit {
+  font-size: 16px;
+  color: #999999
+}
+
+#score {
+  color: #881d08;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #731d08;
+}
+
+#dragon-image {
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+}
+
+select {
+  margin: 2px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #dcd6c8;
+  color: #881d08;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4)
+}
+
+button:hover {
+  background-color: #8f8d8d;
+}
+
+#feedback-container,
+#dropdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.feedback-box {
+  width: 25%; /* Each box takes up one-third of the row */
+  height: 20px;
+  text-align: center;
+  margin-left: 4px;
+  margin-right: 4px;
+  line-height: 20px;
+  font-size: 13px;
+  display: none; /* Initially hidden */
+}
+
+.correct {
+  background-color: #abffc7;
+  color: #1f1f1f;
+  border: 1px solid #00a150;
+}
+
+.incorrect {
+  background-color: #ffadad;
+  color: #1f1f1f;
+  border: 1px solid #bd0000;
+}
+
+#dropdown-container select {
+  width: 25%; /* Each dropdown takes up one-third of the row */
+  margin: 0 5px; /* Small spacing between dropdowns */
+}
